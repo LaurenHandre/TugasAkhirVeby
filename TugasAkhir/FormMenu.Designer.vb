@@ -27,6 +27,7 @@ Partial Class FormMenu
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -62,11 +63,11 @@ Partial Class FormMenu
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button3.Location = New System.Drawing.Point(106, 530)
+        Me.Button3.Location = New System.Drawing.Point(106, 426)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(257, 69)
         Me.Button3.TabIndex = 12
-        Me.Button3.Text = "Menu Report"
+        Me.Button3.Text = "Menu Daftar Rekening"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Button4
@@ -75,7 +76,7 @@ Partial Class FormMenu
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button4.Location = New System.Drawing.Point(636, 530)
+        Me.Button4.Location = New System.Drawing.Point(355, 636)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(257, 69)
         Me.Button4.TabIndex = 13
@@ -95,12 +96,26 @@ Partial Class FormMenu
         Me.Button1.Text = "Menu Pendaftaran Rekening"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'Button5
+        '
+        Me.Button5.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Button5.BackColor = System.Drawing.Color.White
+        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button5.Location = New System.Drawing.Point(636, 426)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(257, 69)
+        Me.Button5.TabIndex = 14
+        Me.Button5.Text = "Menu Daftar Penarikan Tunai"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
         'FormMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.TugasAkhir.My.Resources.Resources.Blue
         Me.ClientSize = New System.Drawing.Size(1032, 754)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
@@ -123,4 +138,5 @@ Partial Class FormMenu
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button5 As Button
 End Class

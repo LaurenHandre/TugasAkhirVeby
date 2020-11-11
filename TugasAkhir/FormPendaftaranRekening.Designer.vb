@@ -27,8 +27,6 @@ Partial Class FormPendaftaranRekening
         Me.ComboBox_Pekerjaan = New System.Windows.Forms.ComboBox()
         Me.ComboBox_StatusPerkawinan = New System.Windows.Forms.ComboBox()
         Me.ComboBox_Agama = New System.Windows.Forms.ComboBox()
-        Me.RadioButton_Perempuan = New System.Windows.Forms.RadioButton()
-        Me.RadioButton_Lakilaki = New System.Windows.Forms.RadioButton()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -46,6 +44,8 @@ Partial Class FormPendaftaranRekening
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.btn_reset = New System.Windows.Forms.Button()
         Me.btn_save = New System.Windows.Forms.Button()
+        Me.TextBox_RekeningId = New System.Windows.Forms.TextBox()
+        Me.ComboBox1_JenisKelamin = New System.Windows.Forms.ComboBox()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -70,11 +70,11 @@ Partial Class FormPendaftaranRekening
         Me.Panel1.BackColor = System.Drawing.Color.White
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.ComboBox1_JenisKelamin)
+        Me.Panel1.Controls.Add(Me.TextBox_RekeningId)
         Me.Panel1.Controls.Add(Me.ComboBox_Pekerjaan)
         Me.Panel1.Controls.Add(Me.ComboBox_StatusPerkawinan)
         Me.Panel1.Controls.Add(Me.ComboBox_Agama)
-        Me.Panel1.Controls.Add(Me.RadioButton_Perempuan)
-        Me.Panel1.Controls.Add(Me.RadioButton_Lakilaki)
         Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.Label7)
         Me.Panel1.Controls.Add(Me.Label8)
@@ -126,32 +126,6 @@ Partial Class FormPendaftaranRekening
         Me.ComboBox_Agama.Name = "ComboBox_Agama"
         Me.ComboBox_Agama.Size = New System.Drawing.Size(422, 33)
         Me.ComboBox_Agama.TabIndex = 72
-        '
-        'RadioButton_Perempuan
-        '
-        Me.RadioButton_Perempuan.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadioButton_Perempuan.AutoSize = True
-        Me.RadioButton_Perempuan.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton_Perempuan.Location = New System.Drawing.Point(1167, 31)
-        Me.RadioButton_Perempuan.Name = "RadioButton_Perempuan"
-        Me.RadioButton_Perempuan.Size = New System.Drawing.Size(134, 29)
-        Me.RadioButton_Perempuan.TabIndex = 70
-        Me.RadioButton_Perempuan.TabStop = True
-        Me.RadioButton_Perempuan.Text = "Perempuan"
-        Me.RadioButton_Perempuan.UseVisualStyleBackColor = True
-        '
-        'RadioButton_Lakilaki
-        '
-        Me.RadioButton_Lakilaki.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadioButton_Lakilaki.AutoSize = True
-        Me.RadioButton_Lakilaki.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton_Lakilaki.Location = New System.Drawing.Point(958, 31)
-        Me.RadioButton_Lakilaki.Name = "RadioButton_Lakilaki"
-        Me.RadioButton_Lakilaki.Size = New System.Drawing.Size(112, 29)
-        Me.RadioButton_Lakilaki.TabIndex = 69
-        Me.RadioButton_Lakilaki.TabStop = True
-        Me.RadioButton_Lakilaki.Text = "Laki-Laki"
-        Me.RadioButton_Lakilaki.UseVisualStyleBackColor = True
         '
         'Label6
         '
@@ -335,6 +309,24 @@ Partial Class FormPendaftaranRekening
         Me.btn_save.Text = "Save"
         Me.btn_save.UseVisualStyleBackColor = True
         '
+        'TextBox_RekeningId
+        '
+        Me.TextBox_RekeningId.Location = New System.Drawing.Point(947, 355)
+        Me.TextBox_RekeningId.Name = "TextBox_RekeningId"
+        Me.TextBox_RekeningId.Size = New System.Drawing.Size(293, 22)
+        Me.TextBox_RekeningId.TabIndex = 76
+        '
+        'ComboBox1_JenisKelamin
+        '
+        Me.ComboBox1_JenisKelamin.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ComboBox1_JenisKelamin.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1_JenisKelamin.FormattingEnabled = True
+        Me.ComboBox1_JenisKelamin.Items.AddRange(New Object() {"Laki-Laki", "Perempuan"})
+        Me.ComboBox1_JenisKelamin.Location = New System.Drawing.Point(956, 28)
+        Me.ComboBox1_JenisKelamin.Name = "ComboBox1_JenisKelamin"
+        Me.ComboBox1_JenisKelamin.Size = New System.Drawing.Size(422, 33)
+        Me.ComboBox1_JenisKelamin.TabIndex = 77
+        '
         'FormPendaftaranRekening
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -377,8 +369,6 @@ Partial Class FormPendaftaranRekening
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox_TempatLahir As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents RadioButton_Perempuan As RadioButton
-    Friend WithEvents RadioButton_Lakilaki As RadioButton
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
@@ -386,4 +376,6 @@ Partial Class FormPendaftaranRekening
     Friend WithEvents ComboBox_Agama As ComboBox
     Friend WithEvents ComboBox_StatusPerkawinan As ComboBox
     Friend WithEvents ComboBox_Pekerjaan As ComboBox
+    Friend WithEvents TextBox_RekeningId As TextBox
+    Friend WithEvents ComboBox1_JenisKelamin As ComboBox
 End Class

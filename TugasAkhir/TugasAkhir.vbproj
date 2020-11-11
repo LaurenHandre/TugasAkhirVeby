@@ -73,6 +73,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormDaftarPenarikan.Designer.vb">
+      <DependentUpon>FormDaftarPenarikan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDaftarPenarikan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDaftarRekening.Designer.vb">
+      <DependentUpon>FormDaftarRekening.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDaftarRekening.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormLogin.Designer.vb">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </Compile>
@@ -97,6 +109,12 @@
     <Compile Include="FormPendaftaranRekening.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormStatus.Designer.vb">
+      <DependentUpon>FormStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="KoneksiDatabase.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -115,6 +133,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormDaftarPenarikan.resx">
+      <DependentUpon>FormDaftarPenarikan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDaftarRekening.resx">
+      <DependentUpon>FormDaftarRekening.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPendaftaranRekening.resx">
       <DependentUpon>FormPendaftaranRekening.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStatus.resx">
+      <DependentUpon>FormStatus.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

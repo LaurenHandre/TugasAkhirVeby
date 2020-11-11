@@ -1,6 +1,7 @@
 ﻿
 Public Class FormLogin
     Public UserName As String
+    Public IdUser As String
 
 
     Sub Login()
@@ -23,6 +24,7 @@ Public Class FormLogin
             Else
                 MsgBox("Berhasil Login", MsgBoxStyle.Information, "Success")
                 UserName = dt.Rows(0).Item(1).ToString().Trim()
+                IdUser = dt.Rows(0).Item(0).ToString().Trim()
                 FormMenu.Show()
                 Me.Hide()
 

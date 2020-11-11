@@ -56,51 +56,51 @@ Partial Class FormPendaftaran
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.Page_Dokumentasi = New System.Windows.Forms.TabPage()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Page_Pendaftaran = New System.Windows.Forms.TabPage()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.lbl_kode_user_hiji = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.TextBox_NIK = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox_Nama = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox_Tempat = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.DateTimePicker_TanggalLahir = New System.Windows.Forms.DateTimePicker()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox_Alamat = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox_Account = New System.Windows.Forms.TextBox()
-        Me.btn_check = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox_JumlahPenarikan = New System.Windows.Forms.TextBox()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.DateTimePicker_TanggalPenarikan = New System.Windows.Forms.DateTimePicker()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.DateTimePicker_JamPenarikan = New System.Windows.Forms.DateTimePicker()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.TextBox_UploadKTP = New System.Windows.Forms.TextBox()
-        Me.Button_UploadKTP = New System.Windows.Forms.Button()
-        Me.Button_UploadSuratPengantar = New System.Windows.Forms.Button()
-        Me.TextBox_UploadSuratPengantar = New System.Windows.Forms.TextBox()
         Me.btn_reset = New System.Windows.Forms.Button()
         Me.btn_save = New System.Windows.Forms.Button()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Button_UploadSuratPengantar = New System.Windows.Forms.Button()
+        Me.TextBox_UploadSuratPengantar = New System.Windows.Forms.TextBox()
+        Me.Button_UploadKTP = New System.Windows.Forms.Button()
+        Me.TextBox_UploadKTP = New System.Windows.Forms.TextBox()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Page_Pendaftaran = New System.Windows.Forms.TabPage()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.DateTimePicker_JamPenarikan = New System.Windows.Forms.DateTimePicker()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.DateTimePicker_TanggalPenarikan = New System.Windows.Forms.DateTimePicker()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.TextBox_JumlahPenarikan = New System.Windows.Forms.TextBox()
+        Me.btn_check = New System.Windows.Forms.Button()
+        Me.TextBox_Account = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.TextBox_Alamat = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.DateTimePicker_TanggalLahir = New System.Windows.Forms.DateTimePicker()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.TextBox_Tempat = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox_Nama = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.TextBox_NIK = New System.Windows.Forms.TextBox()
+        Me.lbl_kode_user_hiji = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Page_Dokumentasi.SuspendLayout()
-        Me.Page_Pendaftaran.SuspendLayout()
-        Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        Me.TabControl1.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        Me.Page_Pendaftaran.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.TabControl1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button2
@@ -426,6 +426,105 @@ Partial Class FormPendaftaran
         Me.Page_Dokumentasi.Text = "Dokumen Pendukung"
         Me.Page_Dokumentasi.UseVisualStyleBackColor = True
         '
+        'btn_reset
+        '
+        Me.btn_reset.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_reset.Location = New System.Drawing.Point(837, 528)
+        Me.btn_reset.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_reset.Name = "btn_reset"
+        Me.btn_reset.Size = New System.Drawing.Size(213, 49)
+        Me.btn_reset.TabIndex = 38
+        Me.btn_reset.Text = "Reset"
+        Me.btn_reset.UseVisualStyleBackColor = True
+        '
+        'btn_save
+        '
+        Me.btn_save.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_save.Location = New System.Drawing.Point(1091, 528)
+        Me.btn_save.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_save.Name = "btn_save"
+        Me.btn_save.Size = New System.Drawing.Size(213, 49)
+        Me.btn_save.TabIndex = 37
+        Me.btn_save.Text = "Save"
+        Me.btn_save.UseVisualStyleBackColor = True
+        '
+        'Panel3
+        '
+        Me.Panel3.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Panel3.Controls.Add(Me.Button_UploadSuratPengantar)
+        Me.Panel3.Controls.Add(Me.TextBox_UploadSuratPengantar)
+        Me.Panel3.Controls.Add(Me.Button_UploadKTP)
+        Me.Panel3.Controls.Add(Me.TextBox_UploadKTP)
+        Me.Panel3.Controls.Add(Me.Label30)
+        Me.Panel3.Controls.Add(Me.Label31)
+        Me.Panel3.Location = New System.Drawing.Point(190, 86)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(901, 422)
+        Me.Panel3.TabIndex = 36
+        '
+        'Button_UploadSuratPengantar
+        '
+        Me.Button_UploadSuratPengantar.BackColor = System.Drawing.Color.White
+        Me.Button_UploadSuratPengantar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Button_UploadSuratPengantar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button_UploadSuratPengantar.Location = New System.Drawing.Point(631, 142)
+        Me.Button_UploadSuratPengantar.Name = "Button_UploadSuratPengantar"
+        Me.Button_UploadSuratPengantar.Size = New System.Drawing.Size(119, 45)
+        Me.Button_UploadSuratPengantar.TabIndex = 49
+        Me.Button_UploadSuratPengantar.Text = "Upload"
+        Me.Button_UploadSuratPengantar.UseVisualStyleBackColor = False
+        '
+        'TextBox_UploadSuratPengantar
+        '
+        Me.TextBox_UploadSuratPengantar.Enabled = False
+        Me.TextBox_UploadSuratPengantar.Location = New System.Drawing.Point(285, 151)
+        Me.TextBox_UploadSuratPengantar.Name = "TextBox_UploadSuratPengantar"
+        Me.TextBox_UploadSuratPengantar.Size = New System.Drawing.Size(309, 26)
+        Me.TextBox_UploadSuratPengantar.TabIndex = 50
+        '
+        'Button_UploadKTP
+        '
+        Me.Button_UploadKTP.BackColor = System.Drawing.Color.White
+        Me.Button_UploadKTP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Button_UploadKTP.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button_UploadKTP.Location = New System.Drawing.Point(631, 24)
+        Me.Button_UploadKTP.Name = "Button_UploadKTP"
+        Me.Button_UploadKTP.Size = New System.Drawing.Size(119, 45)
+        Me.Button_UploadKTP.TabIndex = 12
+        Me.Button_UploadKTP.Text = "Upload"
+        Me.Button_UploadKTP.UseVisualStyleBackColor = False
+        '
+        'TextBox_UploadKTP
+        '
+        Me.TextBox_UploadKTP.Enabled = False
+        Me.TextBox_UploadKTP.Location = New System.Drawing.Point(285, 33)
+        Me.TextBox_UploadKTP.Name = "TextBox_UploadKTP"
+        Me.TextBox_UploadKTP.Size = New System.Drawing.Size(309, 26)
+        Me.TextBox_UploadKTP.TabIndex = 48
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Location = New System.Drawing.Point(24, 147)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(185, 29)
+        Me.Label30.TabIndex = 47
+        Me.Label30.Text = "Surat Pengantar"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(24, 30)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(61, 29)
+        Me.Label31.TabIndex = 45
+        Me.Label31.Text = "KTP"
+        '
         'Label12
         '
         Me.Label12.Anchor = System.Windows.Forms.AnchorStyles.None
@@ -460,27 +559,131 @@ Partial Class FormPendaftaran
         Me.Page_Pendaftaran.Text = " Pendaftaran"
         Me.Page_Pendaftaran.UseVisualStyleBackColor = True
         '
-        'Label25
+        'Label5
         '
-        Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(781, 613)
-        Me.Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(0, 20)
-        Me.Label25.TabIndex = 27
-        Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(268, 43)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(154, 29)
+        Me.Label5.TabIndex = 43
+        Me.Label5.Text = "No Rekening"
         '
-        'lbl_kode_user_hiji
+        'Panel2
         '
-        Me.lbl_kode_user_hiji.AutoSize = True
-        Me.lbl_kode_user_hiji.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_kode_user_hiji.Location = New System.Drawing.Point(889, 613)
-        Me.lbl_kode_user_hiji.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lbl_kode_user_hiji.Name = "lbl_kode_user_hiji"
-        Me.lbl_kode_user_hiji.Size = New System.Drawing.Size(0, 20)
-        Me.lbl_kode_user_hiji.TabIndex = 28
-        Me.lbl_kode_user_hiji.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Panel2.Controls.Add(Me.DateTimePicker_JamPenarikan)
+        Me.Panel2.Controls.Add(Me.Label26)
+        Me.Panel2.Controls.Add(Me.DateTimePicker_TanggalPenarikan)
+        Me.Panel2.Controls.Add(Me.Label23)
+        Me.Panel2.Controls.Add(Me.Label19)
+        Me.Panel2.Controls.Add(Me.Label17)
+        Me.Panel2.Controls.Add(Me.TextBox_JumlahPenarikan)
+        Me.Panel2.Location = New System.Drawing.Point(660, 137)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(610, 350)
+        Me.Panel2.TabIndex = 42
+        '
+        'DateTimePicker_JamPenarikan
+        '
+        Me.DateTimePicker_JamPenarikan.CustomFormat = ""
+        Me.DateTimePicker_JamPenarikan.Enabled = False
+        Me.DateTimePicker_JamPenarikan.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.DateTimePicker_JamPenarikan.Location = New System.Drawing.Point(277, 158)
+        Me.DateTimePicker_JamPenarikan.Name = "DateTimePicker_JamPenarikan"
+        Me.DateTimePicker_JamPenarikan.ShowUpDown = True
+        Me.DateTimePicker_JamPenarikan.Size = New System.Drawing.Size(309, 34)
+        Me.DateTimePicker_JamPenarikan.TabIndex = 57
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(41, 163)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(172, 29)
+        Me.Label26.TabIndex = 56
+        Me.Label26.Text = "Jam Penarikan"
+        '
+        'DateTimePicker_TanggalPenarikan
+        '
+        Me.DateTimePicker_TanggalPenarikan.Enabled = False
+        Me.DateTimePicker_TanggalPenarikan.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.DateTimePicker_TanggalPenarikan.Location = New System.Drawing.Point(277, 91)
+        Me.DateTimePicker_TanggalPenarikan.Name = "DateTimePicker_TanggalPenarikan"
+        Me.DateTimePicker_TanggalPenarikan.Size = New System.Drawing.Size(309, 34)
+        Me.DateTimePicker_TanggalPenarikan.TabIndex = 55
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(41, 96)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(216, 29)
+        Me.Label23.TabIndex = 54
+        Me.Label23.Text = "Tanggal Penarikan"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(266, 35)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(44, 29)
+        Me.Label19.TabIndex = 48
+        Me.Label19.Text = "Rp"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(41, 37)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(204, 29)
+        Me.Label17.TabIndex = 47
+        Me.Label17.Text = "Jumlah Penarikan"
+        '
+        'TextBox_JumlahPenarikan
+        '
+        Me.TextBox_JumlahPenarikan.Enabled = False
+        Me.TextBox_JumlahPenarikan.Location = New System.Drawing.Point(317, 32)
+        Me.TextBox_JumlahPenarikan.Name = "TextBox_JumlahPenarikan"
+        Me.TextBox_JumlahPenarikan.Size = New System.Drawing.Size(269, 34)
+        Me.TextBox_JumlahPenarikan.TabIndex = 46
+        '
+        'btn_check
+        '
+        Me.btn_check.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_check.Location = New System.Drawing.Point(977, 28)
+        Me.btn_check.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_check.Name = "btn_check"
+        Me.btn_check.Size = New System.Drawing.Size(213, 64)
+        Me.btn_check.TabIndex = 41
+        Me.btn_check.Text = "Check"
+        Me.btn_check.UseVisualStyleBackColor = True
+        '
+        'TextBox_Account
+        '
+        Me.TextBox_Account.Location = New System.Drawing.Point(465, 43)
+        Me.TextBox_Account.Name = "TextBox_Account"
+        Me.TextBox_Account.Size = New System.Drawing.Size(470, 34)
+        Me.TextBox_Account.TabIndex = 40
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(260, 48)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(0, 29)
+        Me.Label3.TabIndex = 39
         '
         'Panel1
         '
@@ -500,77 +703,14 @@ Partial Class FormPendaftaran
         Me.Panel1.Size = New System.Drawing.Size(564, 422)
         Me.Panel1.TabIndex = 35
         '
-        'TextBox_NIK
+        'TextBox_Alamat
         '
-        Me.TextBox_NIK.Location = New System.Drawing.Point(221, 27)
-        Me.TextBox_NIK.Name = "TextBox_NIK"
-        Me.TextBox_NIK.Size = New System.Drawing.Size(309, 34)
-        Me.TextBox_NIK.TabIndex = 44
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(24, 30)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(53, 29)
-        Me.Label7.TabIndex = 45
-        Me.Label7.Text = "NIK"
-        '
-        'TextBox_Nama
-        '
-        Me.TextBox_Nama.Location = New System.Drawing.Point(221, 86)
-        Me.TextBox_Nama.Name = "TextBox_Nama"
-        Me.TextBox_Nama.Size = New System.Drawing.Size(309, 34)
-        Me.TextBox_Nama.TabIndex = 46
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(24, 91)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(77, 29)
-        Me.Label8.TabIndex = 47
-        Me.Label8.Text = "Nama"
-        '
-        'TextBox_Tempat
-        '
-        Me.TextBox_Tempat.Location = New System.Drawing.Point(221, 148)
-        Me.TextBox_Tempat.Name = "TextBox_Tempat"
-        Me.TextBox_Tempat.Size = New System.Drawing.Size(309, 34)
-        Me.TextBox_Tempat.TabIndex = 48
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(24, 153)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(96, 29)
-        Me.Label9.TabIndex = 49
-        Me.Label9.Text = "Tempat"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(24, 218)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(161, 29)
-        Me.Label10.TabIndex = 50
-        Me.Label10.Text = "Tanggal Lahir"
-        '
-        'DateTimePicker_TanggalLahir
-        '
-        Me.DateTimePicker_TanggalLahir.Location = New System.Drawing.Point(221, 213)
-        Me.DateTimePicker_TanggalLahir.Name = "DateTimePicker_TanggalLahir"
-        Me.DateTimePicker_TanggalLahir.Size = New System.Drawing.Size(309, 34)
-        Me.DateTimePicker_TanggalLahir.TabIndex = 51
+        Me.TextBox_Alamat.Enabled = False
+        Me.TextBox_Alamat.Location = New System.Drawing.Point(221, 263)
+        Me.TextBox_Alamat.Multiline = True
+        Me.TextBox_Alamat.Name = "TextBox_Alamat"
+        Me.TextBox_Alamat.Size = New System.Drawing.Size(309, 128)
+        Me.TextBox_Alamat.TabIndex = 53
         '
         'Label11
         '
@@ -583,136 +723,103 @@ Partial Class FormPendaftaran
         Me.Label11.TabIndex = 52
         Me.Label11.Text = "Alamat"
         '
-        'TextBox_Alamat
+        'DateTimePicker_TanggalLahir
         '
-        Me.TextBox_Alamat.Location = New System.Drawing.Point(221, 263)
-        Me.TextBox_Alamat.Multiline = True
-        Me.TextBox_Alamat.Name = "TextBox_Alamat"
-        Me.TextBox_Alamat.Size = New System.Drawing.Size(309, 128)
-        Me.TextBox_Alamat.TabIndex = 53
+        Me.DateTimePicker_TanggalLahir.Enabled = False
+        Me.DateTimePicker_TanggalLahir.Location = New System.Drawing.Point(221, 213)
+        Me.DateTimePicker_TanggalLahir.Name = "DateTimePicker_TanggalLahir"
+        Me.DateTimePicker_TanggalLahir.Size = New System.Drawing.Size(309, 34)
+        Me.DateTimePicker_TanggalLahir.TabIndex = 51
         '
-        'Label3
+        'Label10
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(260, 48)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(0, 29)
-        Me.Label3.TabIndex = 39
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(24, 218)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(161, 29)
+        Me.Label10.TabIndex = 50
+        Me.Label10.Text = "Tanggal Lahir"
         '
-        'TextBox_Account
+        'Label9
         '
-        Me.TextBox_Account.Location = New System.Drawing.Point(465, 43)
-        Me.TextBox_Account.Name = "TextBox_Account"
-        Me.TextBox_Account.Size = New System.Drawing.Size(470, 34)
-        Me.TextBox_Account.TabIndex = 40
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(24, 153)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(155, 29)
+        Me.Label9.TabIndex = 49
+        Me.Label9.Text = "Tempat Lahir"
         '
-        'btn_check
+        'TextBox_Tempat
         '
-        Me.btn_check.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_check.Location = New System.Drawing.Point(977, 28)
-        Me.btn_check.Margin = New System.Windows.Forms.Padding(4)
-        Me.btn_check.Name = "btn_check"
-        Me.btn_check.Size = New System.Drawing.Size(213, 64)
-        Me.btn_check.TabIndex = 41
-        Me.btn_check.Text = "Check"
-        Me.btn_check.UseVisualStyleBackColor = True
+        Me.TextBox_Tempat.Enabled = False
+        Me.TextBox_Tempat.Location = New System.Drawing.Point(221, 148)
+        Me.TextBox_Tempat.Name = "TextBox_Tempat"
+        Me.TextBox_Tempat.Size = New System.Drawing.Size(309, 34)
+        Me.TextBox_Tempat.TabIndex = 48
         '
-        'Panel2
+        'Label8
         '
-        Me.Panel2.Controls.Add(Me.DateTimePicker_JamPenarikan)
-        Me.Panel2.Controls.Add(Me.Label26)
-        Me.Panel2.Controls.Add(Me.DateTimePicker_TanggalPenarikan)
-        Me.Panel2.Controls.Add(Me.Label23)
-        Me.Panel2.Controls.Add(Me.Label19)
-        Me.Panel2.Controls.Add(Me.Label17)
-        Me.Panel2.Controls.Add(Me.TextBox_JumlahPenarikan)
-        Me.Panel2.Location = New System.Drawing.Point(660, 137)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(610, 350)
-        Me.Panel2.TabIndex = 42
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(24, 91)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(77, 29)
+        Me.Label8.TabIndex = 47
+        Me.Label8.Text = "Nama"
         '
-        'TextBox_JumlahPenarikan
+        'TextBox_Nama
         '
-        Me.TextBox_JumlahPenarikan.Location = New System.Drawing.Point(317, 32)
-        Me.TextBox_JumlahPenarikan.Name = "TextBox_JumlahPenarikan"
-        Me.TextBox_JumlahPenarikan.Size = New System.Drawing.Size(269, 34)
-        Me.TextBox_JumlahPenarikan.TabIndex = 46
+        Me.TextBox_Nama.Enabled = False
+        Me.TextBox_Nama.Location = New System.Drawing.Point(221, 86)
+        Me.TextBox_Nama.Name = "TextBox_Nama"
+        Me.TextBox_Nama.Size = New System.Drawing.Size(309, 34)
+        Me.TextBox_Nama.TabIndex = 46
         '
-        'Label17
+        'Label7
         '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(41, 37)
-        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(204, 29)
-        Me.Label17.TabIndex = 47
-        Me.Label17.Text = "Jumlah Penarikan"
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(24, 30)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(53, 29)
+        Me.Label7.TabIndex = 45
+        Me.Label7.Text = "NIK"
         '
-        'Label19
+        'TextBox_NIK
         '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(266, 35)
-        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(44, 29)
-        Me.Label19.TabIndex = 48
-        Me.Label19.Text = "Rp"
+        Me.TextBox_NIK.Enabled = False
+        Me.TextBox_NIK.Location = New System.Drawing.Point(221, 27)
+        Me.TextBox_NIK.Name = "TextBox_NIK"
+        Me.TextBox_NIK.Size = New System.Drawing.Size(309, 34)
+        Me.TextBox_NIK.TabIndex = 44
         '
-        'Label23
+        'lbl_kode_user_hiji
         '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(41, 96)
-        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(216, 29)
-        Me.Label23.TabIndex = 54
-        Me.Label23.Text = "Tanggal Penarikan"
+        Me.lbl_kode_user_hiji.AutoSize = True
+        Me.lbl_kode_user_hiji.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_kode_user_hiji.Location = New System.Drawing.Point(889, 613)
+        Me.lbl_kode_user_hiji.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_kode_user_hiji.Name = "lbl_kode_user_hiji"
+        Me.lbl_kode_user_hiji.Size = New System.Drawing.Size(0, 20)
+        Me.lbl_kode_user_hiji.TabIndex = 28
+        Me.lbl_kode_user_hiji.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'DateTimePicker_TanggalPenarikan
+        'Label25
         '
-        Me.DateTimePicker_TanggalPenarikan.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker_TanggalPenarikan.Location = New System.Drawing.Point(277, 91)
-        Me.DateTimePicker_TanggalPenarikan.Name = "DateTimePicker_TanggalPenarikan"
-        Me.DateTimePicker_TanggalPenarikan.Size = New System.Drawing.Size(309, 34)
-        Me.DateTimePicker_TanggalPenarikan.TabIndex = 55
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(41, 163)
-        Me.Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(172, 29)
-        Me.Label26.TabIndex = 56
-        Me.Label26.Text = "Jam Penarikan"
-        '
-        'DateTimePicker_JamPenarikan
-        '
-        Me.DateTimePicker_JamPenarikan.CustomFormat = ""
-        Me.DateTimePicker_JamPenarikan.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.DateTimePicker_JamPenarikan.Location = New System.Drawing.Point(277, 158)
-        Me.DateTimePicker_JamPenarikan.Name = "DateTimePicker_JamPenarikan"
-        Me.DateTimePicker_JamPenarikan.ShowUpDown = True
-        Me.DateTimePicker_JamPenarikan.Size = New System.Drawing.Size(309, 34)
-        Me.DateTimePicker_JamPenarikan.TabIndex = 57
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(268, 43)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(154, 29)
-        Me.Label5.TabIndex = 43
-        Me.Label5.Text = "No Rekening"
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(781, 613)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(0, 20)
+        Me.Label25.TabIndex = 27
+        Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'TabControl1
         '
@@ -730,106 +837,9 @@ Partial Class FormPendaftaran
         Me.TabControl1.Size = New System.Drawing.Size(1329, 701)
         Me.TabControl1.TabIndex = 1
         '
-        'Panel3
-        '
-        Me.Panel3.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Panel3.Controls.Add(Me.Button_UploadSuratPengantar)
-        Me.Panel3.Controls.Add(Me.TextBox_UploadSuratPengantar)
-        Me.Panel3.Controls.Add(Me.Button_UploadKTP)
-        Me.Panel3.Controls.Add(Me.TextBox_UploadKTP)
-        Me.Panel3.Controls.Add(Me.Label30)
-        Me.Panel3.Controls.Add(Me.Label31)
-        Me.Panel3.Location = New System.Drawing.Point(190, 86)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(4)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(901, 422)
-        Me.Panel3.TabIndex = 36
-        '
-        'Label30
-        '
-        Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(24, 147)
-        Me.Label30.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(185, 29)
-        Me.Label30.TabIndex = 47
-        Me.Label30.Text = "Surat Pengantar"
-        '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(24, 30)
-        Me.Label31.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(61, 29)
-        Me.Label31.TabIndex = 45
-        Me.Label31.Text = "KTP"
-        '
         'OpenFileDialog1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
-        '
-        'TextBox_UploadKTP
-        '
-        Me.TextBox_UploadKTP.Location = New System.Drawing.Point(285, 33)
-        Me.TextBox_UploadKTP.Name = "TextBox_UploadKTP"
-        Me.TextBox_UploadKTP.Size = New System.Drawing.Size(309, 26)
-        Me.TextBox_UploadKTP.TabIndex = 48
-        '
-        'Button_UploadKTP
-        '
-        Me.Button_UploadKTP.BackColor = System.Drawing.Color.White
-        Me.Button_UploadKTP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Button_UploadKTP.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button_UploadKTP.Location = New System.Drawing.Point(631, 24)
-        Me.Button_UploadKTP.Name = "Button_UploadKTP"
-        Me.Button_UploadKTP.Size = New System.Drawing.Size(119, 45)
-        Me.Button_UploadKTP.TabIndex = 12
-        Me.Button_UploadKTP.Text = "Upload"
-        Me.Button_UploadKTP.UseVisualStyleBackColor = False
-        '
-        'Button_UploadSuratPengantar
-        '
-        Me.Button_UploadSuratPengantar.BackColor = System.Drawing.Color.White
-        Me.Button_UploadSuratPengantar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Button_UploadSuratPengantar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button_UploadSuratPengantar.Location = New System.Drawing.Point(631, 142)
-        Me.Button_UploadSuratPengantar.Name = "Button_UploadSuratPengantar"
-        Me.Button_UploadSuratPengantar.Size = New System.Drawing.Size(119, 45)
-        Me.Button_UploadSuratPengantar.TabIndex = 49
-        Me.Button_UploadSuratPengantar.Text = "Upload"
-        Me.Button_UploadSuratPengantar.UseVisualStyleBackColor = False
-        '
-        'TextBox_UploadSuratPengantar
-        '
-        Me.TextBox_UploadSuratPengantar.Location = New System.Drawing.Point(285, 151)
-        Me.TextBox_UploadSuratPengantar.Name = "TextBox_UploadSuratPengantar"
-        Me.TextBox_UploadSuratPengantar.Size = New System.Drawing.Size(309, 26)
-        Me.TextBox_UploadSuratPengantar.TabIndex = 50
-        '
-        'btn_reset
-        '
-        Me.btn_reset.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_reset.Location = New System.Drawing.Point(837, 528)
-        Me.btn_reset.Margin = New System.Windows.Forms.Padding(4)
-        Me.btn_reset.Name = "btn_reset"
-        Me.btn_reset.Size = New System.Drawing.Size(213, 49)
-        Me.btn_reset.TabIndex = 38
-        Me.btn_reset.Text = "Reset"
-        Me.btn_reset.UseVisualStyleBackColor = True
-        '
-        'btn_save
-        '
-        Me.btn_save.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_save.Location = New System.Drawing.Point(1091, 528)
-        Me.btn_save.Margin = New System.Windows.Forms.Padding(4)
-        Me.btn_save.Name = "btn_save"
-        Me.btn_save.Size = New System.Drawing.Size(213, 49)
-        Me.btn_save.TabIndex = 37
-        Me.btn_save.Text = "Save"
-        Me.btn_save.UseVisualStyleBackColor = True
         '
         'FormPendaftaran
         '
@@ -851,15 +861,15 @@ Partial Class FormPendaftaran
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Page_Dokumentasi.ResumeLayout(False)
         Me.Page_Dokumentasi.PerformLayout()
-        Me.Page_Pendaftaran.ResumeLayout(False)
-        Me.Page_Pendaftaran.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
-        Me.TabControl1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.Page_Pendaftaran.ResumeLayout(False)
+        Me.Page_Pendaftaran.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.TabControl1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
